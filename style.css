@@ -1,0 +1,58 @@
+#container {
+  position: relative;
+  width: 48vw;
+  height: 48vw;
+  background: url(clock.png) no-repeat;
+  background-size: contain;
+  margin: auto;
+}
+#hour,
+#minute,
+#second {
+  position: absolute;
+  transform-origin: bottom;
+}
+#hour {
+  width: 2%;
+  height: 19%;
+<<<<<<< HEAD
+  background-color: black;
+=======
+  background-color: rgb(209, 150, 24);
+>>>>>>> second commit
+  top: 36.7%;
+  left: 42.33%;
+  border-radius: 10px;
+}
+#minute {
+  width: 1.5%;
+  height: 25%;
+<<<<<<< HEAD
+  background-color: black;
+  top: 30.7%;
+  left: 42.51%;
+  border-radius: 10px;
+  opacity: 0.8;
+=======
+  background-color: rgb(20, 113, 156);
+  top: 30.7%;
+  left: 42.51%;
+  border-radius: 10px;
+>>>>>>> second commit
+}
+#second {
+  width: 1%;
+  height: 29%;
+<<<<<<< HEAD
+  background-color: black;
+  top: 26.7%;
+  left: 42.7%;
+  border-radius: 10px;
+  opacity: 0.8;
+=======
+  background-color: rgb(206, 226, 21);
+  top: 26.7%;
+  left: 42.7%;
+  border-radius: 10px;
+>>>>>>> second commit
+}
